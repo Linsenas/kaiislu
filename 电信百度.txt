@@ -1,0 +1,21 @@
+打×请开关飞行模式就好了限速也一样
+mode=wap;
+listen_port=65080;
+daemon=on;
+worker_proc=0;
+uid=0;
+
+http_ip=157.255.78.51;
+http_port=443;
+http_del="";
+http_first="[M] http://[H][U] [V]\r\nX-T5-Auth:  286838093\r\nX-T5-Auth:  538365798\r\nX-T5-Auth:  1869239056";
+
+https_connect=on;
+https_ip=180.97.104.168;
+https_port=443;
+https_del="";
+https_first="[M] [H]CONNECT gimg4.baidu.com:443\r\n [V]\r\nX-T5-Auth:  286838093\r\nX-T5-Auth:  538365798\r\nX-T5-Auth:  1869239056\r\nContent-MD5:  kCxMwhILi06SlS8F65rjjg==\r\nx-bce-request-id:  a6514504-833a-41f9-ade4-b3aa44df81a6\r\nx-bce-content-crc32:  4013721549\r\nx-bce-debug-id:  up++cA7jgwSLAAn0ZnPJbJ78RlxipS4cGXfI244c5NJOrQbEHDehriJ3LR+NopxuZxS2jZKGa9NZgW5F+JdWkA==\r\nx-bce-storage-class:  STANDARD\r\nOhc-Cache-HIT:  hs6ct62 [2], hsctcache95 [3], suzix95 [3]\r\nOhc-File-Size:  196202";
+
+dns_tcp=http; 
+dns_listen_port=65053; 
+dns_url="119.29.29.29";
